@@ -4,7 +4,7 @@ const bookingSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    doctorId:{
+    providerId:{
         type: String,
         required: true,
     },
