@@ -33,7 +33,7 @@ const providerchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    feePerCunsultation: {
+    feePerBooking: {
         type: Number,
         required: true,
     },
