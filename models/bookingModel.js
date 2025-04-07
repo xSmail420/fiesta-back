@@ -16,7 +16,7 @@ const bookingSchema = new mongoose.Schema({
         type: Object,
         required: true,
     },
-    doctorInfo:{
+    providerInfo:{
         type: Object,
         required: true,
     },
